@@ -31,12 +31,12 @@
         </div>
     </div>
     <div class="carrinho">
-        <h3>Carrinho:</h3>
-        <div class="compras">
+    <h3>Carrinho:</h3>
+    <div class="compras" id="containerCarrinho">
 
-        </div>
-        <button>Ver mais &#8594;</button>
     </div>
+    <button>Ver mais &#8594;</button>
+</div>
     <header>
         <div class="header-iner-content">
             <div class="header-botton-side">
@@ -71,44 +71,8 @@
                 <h3 class="section-title">Produtos selecionados</h3>
                 <div class="subtitle-underline"></div>
             </div>
-            <div class="cols cols-4">
-                <div class="product">
-                    <img src="./img/Products/product-4.png" alt="Product 4">
-                    <p class="product-name">Combo Gamer Meetion</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">4,000.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-5.png" alt="Product 5">
-                    <p class="product-name">Placa de video GTX</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">2,360.55 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-6.png" alt="Product 6">
-                    <p class="product-name">Dualsense PS5</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">500.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-7.png" alt="Product 7">
-                    <p class="product-name">Cadeira Gamer </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">450.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-                <!--Add product-->
+            <div class="cols cols-4" id="containerProdutos">
+                <!-- Seus produtos aqui... -->
             </div>
 
             <div class="page-inner-content">
@@ -271,6 +235,7 @@
     <!--script-->
     <script src="js/index.js"></script>
     <script src="js/dropdown.js"></script>
+    <script src="js/carrinho.js"></script>
      <!--script-->
 </body>
 </html>
