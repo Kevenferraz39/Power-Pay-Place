@@ -33,8 +33,11 @@
     <div class="carrinho">
     <h3>Carrinho:</h3>
     <div class="compras" id="containerCarrinho">
-
+        <!-- compras -->
     </div>
+    <div class="total">
+            <!--  valor total da compra compras -->
+        </div>
     <button>Ver mais &#8594;</button>
 </div>
     <header>

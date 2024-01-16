@@ -75,9 +75,14 @@ a{
 }
 .carrinho .compras{
     width: 100%;
-    height: 80%;
+    height: 60%;
     background-color: var(--light-gray);
     border-style: solid 1px;
+}
+ .carrinho .total{
+    width: 100%;
+    height: 3rem;
+    padding: 0.8rem;
 }
 .carrinho button{
     background-color: var(--color3);
@@ -94,6 +99,25 @@ a{
 }
 .show-carrinho{
 display: block;
+}
+.info-single-chekout{
+    border-bottom: 2px dotted;
+    padding: 10px 0;
+}
+.info-single-chekout p{
+    font-size: 14px;
+}
+.info-single-chekout span{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--teme);
+}
+
+.cart{
+    float: right;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
 }
 .navbar{
     background-color: var(--light-gray);
