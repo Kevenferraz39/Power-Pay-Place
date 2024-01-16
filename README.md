@@ -27,7 +27,7 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - SQL;
 - API;
 - Java Script;
-- SVG.
+
 
 ## 🌐 Plataforma utilizadas
 Para desenvolvimento deste site utilizamos algumas plataformas que nos auxiliaram nos conceitos de desing:
