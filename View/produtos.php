@@ -12,7 +12,7 @@
 <body>
     <div class="navbar">
         <div class="header-inner-contet">
-        <a href="home.php"><h1 class="logo">Power <span>Play Palace</span></h1></a>
+            <a href="home.php"><h1 class="logo">Power <span>Play Palace</span></h1></a>
             <a href="home.php" class="linkHome
             Menu"><img src="./img/logo-removebg-preview.png" alt="logo" class="logoFoto"></a>
             <nav>
@@ -25,11 +25,21 @@
                 </ul>
             </nav>
             <div class="nav-icons-container">
-                <img src="./img/carrinho.png" alt="carrinho" class="carrinhoimg">
+                <img src="./img/carrinho.png" alt="carrinho" class="carrinhoimg" id="car-button">
                 <img src="./img/menuu.png" alt="menu" class="menu-button">
             </div>
         </div>
     </div>
+    <div class="carrinho">
+    <h3>Carrinho:</h3>
+    <div class="compras" id="containerCarrinho">
+        <!-- compras -->
+    </div>
+    <div class="total">
+            <!--  valor total da compra compras -->
+        </div>
+    <button>Ver mais &#8594;</button>
+</div>
     <header>
         <div class="header-iner-content">
             <div class="header-botton-side">
@@ -50,466 +60,45 @@
 
     <main>
         <div>
-              <div class="page-inner-content">
+            <div class="page-inner-content">
                 <h3 class="section-title">
-                    Ultimos Produtos
+                    Produtos em alta
                 </h3>
                 <div class="subtitle-underline"></div>
             </div>
-            <div class="cols cols-4">
-                <div class="product">
-                    <img src="./img/Products/product-8.png" alt="Product 8">
-                    <p class="product-name">Iphone 14 Pro Max</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">11,499.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-9.png" alt="Product 9">
-                    <p class="product-name">Samsung Galaxy s23 Ultra</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">6,299.55 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-10.png" alt="Product 10">
-                    <p class="product-name">Asus Rog Phone 3 Gamer</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">2,789.10 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-11.png" alt="Product 11">
-                    <p class="product-name">Xaiomi Ultra 13 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,275.50 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-12.png" alt="Product 12">
-                    <p class="product-name">Xbox Series X</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">4,950.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-13.png" alt="Product 13">
-                    <p class="product-name">Racingwheel GT480 Ferrari </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">1,450.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-14.png" alt="Product 14">
-                    <p class="product-name">Play Station 5 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">4,450.59 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-15.png" alt="Product 15">
-                    <p class="product-name">Gamming dasktop RTX 3090 TI </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,500.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-8.png" alt="Product 8">
-                    <p class="product-name">Iphone 14 Pro Max</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">11,499.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-9.png" alt="Product 9">
-                    <p class="product-name">Samsung Galaxy s23 Ultra</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">6,299.55 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-10.png" alt="Product 10">
-                    <p class="product-name">Asus Rog Phone 3 Gamer</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">2,789.10 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-11.png" alt="Product 11">
-                    <p class="product-name">Xaiomi Ultra 13 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,275.50 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-12.png" alt="Product 12">
-                    <p class="product-name">Xbox Series X</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">4,950.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-13.png" alt="Product 13">
-                    <p class="product-name">Racingwheel GT480 Ferrari </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">1,450.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-14.png" alt="Product 14">
-                    <p class="product-name">Play Station 5 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">4,450.59 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-15.png" alt="Product 15">
-                    <p class="product-name">Gamming dasktop RTX 3090 TI </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,500.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-8.png" alt="Product 8">
-                    <p class="product-name">Iphone 14 Pro Max</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">11,499.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-9.png" alt="Product 9">
-                    <p class="product-name">Samsung Galaxy s23 Ultra</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">6,299.55 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-10.png" alt="Product 10">
-                    <p class="product-name">Asus Rog Phone 3 Gamer</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">2,789.10 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-11.png" alt="Product 11">
-                    <p class="product-name">Xaiomi Ultra 13 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,275.50 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-12.png" alt="Product 12">
-                    <p class="product-name">Xbox Series X</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">4,950.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-13.png" alt="Product 13">
-                    <p class="product-name">Racingwheel GT480 Ferrari </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">1,450.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-14.png" alt="Product 14">
-                    <p class="product-name">Play Station 5 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">4,450.59 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-15.png" alt="Product 15">
-                    <p class="product-name">Gamming dasktop RTX 3090 TI </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,500.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-8.png" alt="Product 8">
-                    <p class="product-name">Iphone 14 Pro Max</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">11,499.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-9.png" alt="Product 9">
-                    <p class="product-name">Samsung Galaxy s23 Ultra</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">6,299.55 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-10.png" alt="Product 10">
-                    <p class="product-name">Asus Rog Phone 3 Gamer</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">2,789.10 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-11.png" alt="Product 11">
-                    <p class="product-name">Xaiomi Ultra 13 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,275.50 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-12.png" alt="Product 12">
-                    <p class="product-name">Xbox Series X</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">4,950.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-13.png" alt="Product 13">
-                    <p class="product-name">Racingwheel GT480 Ferrari </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">1,450.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-14.png" alt="Product 14">
-                    <p class="product-name">Play Station 5 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">4,450.59 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-15.png" alt="Product 15">
-                    <p class="product-name">Gamming dasktop RTX 3090 TI </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,500.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-8.png" alt="Product 8">
-                    <p class="product-name">Iphone 14 Pro Max</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">11,499.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-9.png" alt="Product 9">
-                    <p class="product-name">Samsung Galaxy s23 Ultra</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">6,299.55 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-10.png" alt="Product 10">
-                    <p class="product-name">Asus Rog Phone 3 Gamer</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">2,789.10 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-11.png" alt="Product 11">
-                    <p class="product-name">Xaiomi Ultra 13 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,275.50 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-12.png" alt="Product 12">
-                    <p class="product-name">Xbox Series X</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">4,950.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-13.png" alt="Product 13">
-                    <p class="product-name">Racingwheel GT480 Ferrari </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">1,450.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-14.png" alt="Product 14">
-                    <p class="product-name">Play Station 5 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">4,450.59 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-15.png" alt="Product 15">
-                    <p class="product-name">Gamming dasktop RTX 3090 TI </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,500.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-8.png" alt="Product 8">
-                    <p class="product-name">Iphone 14 Pro Max</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">11,499.00 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-9.png" alt="Product 9">
-                    <p class="product-name">Samsung Galaxy s23 Ultra</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">6,299.55 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-10.png" alt="Product 10">
-                    <p class="product-name">Asus Rog Phone 3 Gamer</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">2,789.10 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-11.png" alt="Product 11">
-                    <p class="product-name">Xaiomi Ultra 13 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,275.50 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-12.png" alt="Product 12">
-                    <p class="product-name">Xbox Series X</p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                    <p class="product-price">4,950.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-13.png" alt="Product 13">
-                    <p class="product-name">Racingwheel GT480 Ferrari </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9734;&#9734;</p>
-                    <p class="product-price">1,450.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-14.png" alt="Product 14">
-                    <p class="product-name">Play Station 5 </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">4,450.59 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-
-                <div class="product">
-                    <img src="./img/Products/product-15.png" alt="Product 15">
-                    <p class="product-name">Gamming dasktop RTX 3090 TI </p>
-                    <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
-                    <p class="product-price">5,500.99 <span>R$</span></p>
-                    <br>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            
+            <div class="cols cols-4" id="containerProdutos1">
+               <!-- Seus produtos aqui... -->
             </div>
-                 <div class="Orange-background">
-                    <div class="header-iner-content exclusive-container">
-                        <div class="header-botton-side">
-                            <div class="header-botton-side-left">
-                                <h2>Smart band 4</h2>
-                                <p>
-                                    O Mi smart band 4 tem uma tela AMOLED 39.9% maior que o Mi band 3, tela completament digital com brilho ajustavel, de tal modo que tudo é claro ao máximo
-                                </p>
-                                <button>Ver Agora &#8594;</button>
-                            </div>
-                            <div class="header-botton-side-right">
-                                <img src="./img/exclusive.png" alt="notebook">
-                            </div>
-                        </div>
-                    </div>
-                 </div>
-                <!--Add more product-->
-            </div>
-        </div>
 
+            <div class="page-inner-content">
+                <h3 class="section-title">
+                     Produtos que chegam hoje
+                </h3>
+                <div class="subtitle-underline"></div>
+            </div>
+            <div class="cols cols-4" id="containerProdutos2">
+               <!-- Seus produtos aqui... -->
+            </div>
+
+            <div class="page-inner-content">
+                <h3 class="section-title">
+                     Produtos 3
+                </h3>
+                <div class="subtitle-underline"></div>
+            </div>
+            <div class="cols cols-4" id="containerProdutos3">
+               <!-- Seus produtos aqui... -->
+            </div>
+
+            <div class="page-inner-content">
+                <h3 class="section-title">
+                     Produtos 4
+                </h3>
+                <div class="subtitle-underline"></div>
+            </div>
+            <div class="cols cols-4" id="containerProdutos4">
+               <!-- Seus produtos aqui... -->
+            </div>
         <div>
             <div class="page-inner-content">
                 <div class="feedback">
@@ -537,7 +126,7 @@
                 </div>
             </div>
         </div>
-    </main>
+    </main> 
     <!-- main content -->
     <footer class="Orange-background">
         <div class="page-inner-content footer-content">
@@ -568,11 +157,10 @@
             <p>Copyright 2024 Keven Ferraz - todos os direitos Reservados &copy;</p>
         </div>
     </footer>
-    <script>
-        document.getElementById('year').innerHTML = new Date().getFullYear();
-    </script>
     <!--script-->
     <script src="js/index.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/carrinho.js"></script>
      <!--script-->
 </body>
 </html>
