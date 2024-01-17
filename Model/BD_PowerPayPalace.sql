@@ -1,67 +1,50 @@
-CREATE DATABASE BD_Power_Pay_Palace;
-USE BD_Power_Pay_Palace;
 
--- Tabela para armazenar informações sobre os usuários
-CREATE TABLE usuarios (
-    id INT PRIMARY KEY,
-    nome VARCHAR(50) NOT NULL,
-    senha_hash VARCHAR(255) NOT NULL, -- Usar hash para a senha
-    tipo_usuario VARCHAR(20) NOT NULL -- Pode ser substituído por uma tabela de referência
-);
+CREATE DATABASE BD_PowerPlayPalace;
+USE BD_PowerPlayPalace;
 
--- Tabela para armazenar informações sobre os administradores
-CREATE TABLE administradores (
-    id INT PRIMARY KEY,
-    usuario_id INT UNIQUE,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
-);
+create table usuario (
+id int primary key auto_increment, 
+usuario varchar(50) not null ,
+email varchar (62)not null ,
+senha varchar(32) not null ,
+nome varchar (50) not null , 
+cpf char (11) unique not null , 
+idade date not null , 
+celular char (13) not null , 
+telefone char (13) null , 
+cidade varchar (32) not null ,
+rua varchar (100) not null , 
+cep varchar (8) not null ,
+nresidencial char(10) not null ,
+complemento varchar (100) null 
+stats bit not null
+)
 
--- Tabela para armazenar informações sobre os vendedores
-CREATE TABLE vendedores (
-    id INT PRIMARY KEY,
-    usuario_id INT UNIQUE,
-    FOREIGN KEY (usuario_id) REFERENCES usuarios(id) ON DELETE CASCADE
-);
+create table adm (
+id_adm int primary key auto_increment,
+nome varchar (50) not null ,
+usuario varchar(50) not null ,
+email varchar (62)not null ,
+senha varchar(32) not null 
+)
 
--- Tabela para armazenar informações sobre os produtos
-CREATE TABLE produtos (
-    id INT PRIMARY KEY,
-    imagem_produto VARCHAR(255),
-    nome_produto VARCHAR(100) NOT NULL,
-    descricao TEXT,
-    preco DECIMAL(10, 2) NOT NULL
-);
+create table categoria(
+id_cate int primary key auto_increment , 
+nome_cate varchar (50) not null 
+)
 
--- Tabela para armazenar informações sobre as vendas
-CREATE TABLE vendas (
-    id INT PRIMARY KEY,
-    produto_id INT,
-    quantidade_vendida INT,
-    FOREIGN KEY (produto_id) REFERENCES produtos(id) ON DELETE CASCADE
-);
+create table produto (
+id_prod int primary key auto_increment , 
+nome_prod varchar (50) not null , 
+valor money not null ,
+nlote varchar (32) not null , 
+validade date not null ,
+id_cate int fereign key (fk_cate) references categoria( id_cate )
+stats bit not null
+)
 
-
--- Inserindo valores na tabela de usuários
-INSERT INTO usuarios (id, nome, senha_hash, tipo_usuario) VALUES
-(1, 'kevenAdm@Power.com', '040820', 'ADM'),
-(2, 'Vendedor1', 'hash_da_senha_vendedor1', 'Vendedor'),
-(3, 'Vendedor2', 'hash_da_senha_vendedor2', 'Vendedor');
-
--- Inserindo valores na tabela de administradores
-INSERT INTO administradores (id, usuario_id) VALUES
-(1, 1);
-
--- Inserindo valores na tabela de vendedores
-INSERT INTO vendedores (id, usuario_id) VALUES
-(2, 2),
-(3, 3);
-
--- Inserindo valores na tabela de produtos
-INSERT INTO produtos (id, imagem_produto, nome_produto, descricao, preco) VALUES
-(1, 'caminho_da_imagem1.jpg', 'Produto 1', 'Descrição do Produto 1', 19.99),
-(2, 'caminho_da_imagem2.jpg', 'Produto 2', 'Descrição do Produto 2', 29.99);
-
--- Inserindo valores na tabela de vendas
-INSERT INTO vendas (id, produto_id, quantidade_vendida) VALUES
-(1, 1, 5),
-(2, 2, 3);
+create table vendas (
+id_venda int primary key auto_increment , 
+id_prod int foreign key (id_prod) references produto(id_prod) , 
+qntd_vendida int , 
+)

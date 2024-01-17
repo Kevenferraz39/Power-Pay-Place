@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--estilos-->
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/carrinho.css">
     <!--estilos-->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Power Play Palace | Ecommerce</title>
@@ -45,14 +46,60 @@
         <div class="header-iner-content">
             <div class="header-botton-side">
                 <div class="header-botton-side-left">
-                    <h2>De Um Novo Estilo ao Seu Trabalho<span>!</span></h2>
-                    <p>
-                        O sucesso nem sempre tem haver com grandeza. Tem haver com concistencia. Trabalho duro consistencia supera o sucesso. Agrandeza virá!
-                    </p>
-                    <button>Ver Agora &#8594;</button>
+                   
                 </div>
+
                 <div class="header-botton-side-right">
-                    <img src="./img/gaming-msi-header.png" alt="notebook">
+                <div class="carrinho2">
+                    <h3 class="Meu-carrinho">Meu carrinho</h3>
+                    <div class="C-arrinho">
+                        <div class="produtos2">
+                            <img src="./img/Products/product-8.png" alt="iphone" class="imagem-do-produto">
+                            <h3 class="nome">Iphone 14 Pro Max</h3>
+                            <p class="valor"><span>R$:</span> 8,100,99</p>
+                            <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                        </div>
+
+                        <div class="produtos2">
+                            <img src="./img/Products/product-8.png" alt="iphone" class="imagem-do-produto">
+                            <h3 class="nome">Iphone 14 Pro Max</h3>
+                            <p class="valor"><span>R$:</span> 8,100,99</p>
+                            <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                        </div>
+
+                        <div class="produtos2">
+                            <img src="./img/Products/product-8.png" alt="iphone" class="imagem-do-produto">
+                            <h3 class="nome">Iphone 14 Pro Max</h3>
+                            <p class="valor"><span>R$:</span> 8,100,99</p>
+                            <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                        </div>
+
+                        <div class="produtos2">
+                            <img src="./img/Products/product-8.png" alt="iphone" class="imagem-do-produto">
+                            <h3 class="nome">Iphone 14 Pro Max</h3>
+                            <p class="valor"><span>R$:</span> 8,100,99</p>
+                            <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                        </div>
+
+                        <div class="produtos2">
+                            <img src="./img/Products/product-8.png" alt="iphone" class="imagem-do-produto">
+                            <h3 class="nome">Iphone 14 Pro Max</h3>
+                            <p class="valor"><span>R$:</span> 8,100,99</p>
+                            <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                        </div>
+
+                        <div class="produtos2">
+                            <img src="./img/Products/product-8.png" alt="iphone" class="imagem-do-produto">
+                            <h3 class="nome">Iphone 14 Pro Max</h3>
+                            <p class="valor"><span>R$:</span> 8,100,99</p>
+                            <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                        </div>         
+                    </div>
+                    <div class="total2">
+                            <p class="total-valor"><span>Total: R$</span> 8,100,99</p>
+                            <button>Finalizar compra</button>
+                        </div>
+                </div><!--fim do carrinho-->
                 </div>
             </div>
         </div>
@@ -63,9 +110,7 @@
         <div class="Orange-background">
             <div class="page-inner-content">
                 <div class=" cols cols-3">
-                    <img src="./img/Products/product-1.png" alt="Produto 1">
-                    <img src="./img/Products/product-2.png" alt="Produto 2">
-                    <img src="./img/Products/product-3.png" alt="Produto 3"> 
+                     
                 </div>
             </div>
         </div>

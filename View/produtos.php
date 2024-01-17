@@ -38,7 +38,7 @@
     <div class="total">
             <!--  valor total da compra compras -->
         </div>
-    <button>Ver mais &#8594;</button>
+    <button onclick="iraocarrinho()">Ir ao carrinho &#8594;</button>
 </div>
     <header>
         <div class="header-iner-content">
@@ -161,6 +161,7 @@
     <script src="js/index.js"></script>
     <script src="js/dropdown.js"></script>
     <script src="js/carrinho.js"></script>
+    <script src="js/NewPage.js"></script>
      <!--script-->
 </body>
 </html>
