@@ -53,11 +53,14 @@
                 <div class="carrinho2">
                     <h3 class="Meu-carrinho">Meu carrinho</h3>
                     <div class="C-arrinho">
+
                         <div class="produtos2">
                             <img src="./img/Products/product-8.png" alt="iphone" class="imagem-do-produto">
-                            <h3 class="nome">Iphone 14 Pro Max</h3>
-                            <p class="valor"><span>R$:</span> 8,100,99</p>
-                            <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                            <div class="textos">
+                                <h3 class="nome">Iphone 14 Pro Max</h3>
+                                <p class="valor"><span>R$:</span> 8,100,99</p>
+                                <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                            </div>
                         </div>
 
                         <div class="produtos2">

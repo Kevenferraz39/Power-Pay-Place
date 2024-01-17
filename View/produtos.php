@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--estilos-->
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/carrinho.css">
     <!--estilos-->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Produtos</title>

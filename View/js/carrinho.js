@@ -149,11 +149,17 @@ atualizarCarrinho = () => {
     itens.forEach((val) => {
         if (val.quantidade > 0) {
             containerCarrinho.innerHTML += `
-                <div class="info-single-chekout">
-                    <p style="float:left;"><span>Produto:</span> ${val.nome}</p>
-                    <p style="float:right;"><span>Quantidade:</span> ${val.quantidade}</p>
-                    <div style="clear:both;"></div>
-                </div>
+            <div class="produtos2">
+                <img src="${val.img}" alt="iphone" class="imagem-do-produto">
+                <div class="textos">
+                    <h3 class="nome">${val.nome}</h3>
+                    <p class="valor"><span>R$:</span> ${val.valor}</p>
+                    <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                </div> 
+                <div class="quantidade">
+                    <p class="qtd">${val.quantidade}</p>
+                </div> 
+            </div>
             `;
         }
     });
