@@ -134,6 +134,13 @@ inicializarLoja = () => {
         `;
     });
 };
+calcularParcelas = () => {
+    let totalParcelas = 0;
+    itens.forEach((val) => {
+        totalParcelas += (val.quantidade * val.valor) / 12;
+    });
+    return totalParcelas;
+};
 
 calcularTotalValor = () => {
     let totalValor = 0;
@@ -148,13 +155,14 @@ atualizarCarrinho = () => {
     containerCarrinho.innerHTML = "";
     itens.forEach((val) => {
         if (val.quantidade > 0) {
+            val.totalParcelas = (val.quantidade * val.valor) / 12; // Adicione esta linha para calcular as parcelas
             containerCarrinho.innerHTML += `
             <div class="produtos2">
                 <img src="${val.img}" alt="iphone" class="imagem-do-produto">
                 <div class="textos">
                     <h3 class="nome">${val.nome}</h3>
                     <p class="valor"><span>R$:</span> ${val.valor}</p>
-                    <p class="parcela"><span>R$:</span> 67,50 12X sem juros</p>
+                    <p class="parcela"><span>R$:</span> ${val.totalParcelas.toFixed(2)} 12X sem juros</p>
                 </div> 
                 <div class="quantidade">
                     <p class="qtd">${val.quantidade}</p>
@@ -181,3 +189,4 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
