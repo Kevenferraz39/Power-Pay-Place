@@ -1,3 +1,19 @@
+:root{
+    --teme: rgb(238, 157, 17);
+    --button-hover: #DF9310;
+    --button-hover2: #020202cb;
+    --light-gray:#e9e9e9;
+    --color1: black;
+    --color2: rgb(255, 255, 255);
+    --color3: rgb(249, 160, 5);
+    --box-shadow: #2c2c2c;
+    --logo:rgb(255, 162, 0);
+    --background: rgb(243, 243, 243);
+    --main: #f2f2f2;
+    --borderProduct:#81818165;
+    --transparent: #00000000;
+}
+
 body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width input fields */
@@ -31,9 +47,27 @@ button {
   width: 100%;
 }
 
-button:hover {
-  opacity: 0.8;
-}
+#but{
+    background-color: rgb(238, 157, 17);
+    color: white;
+    padding: 14px 20px;
+    font-size: 1.1rem;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 18rem;
+  }
+  #but a{
+    padding: 14px 30px;
+    text-decoration: none;
+    color: white;
+  }
+  #but a:hover {
+    opacity: 0.8;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
 
 /* Extra styles for the cancel button */
 .cancelbtn {
@@ -41,7 +75,9 @@ button:hover {
   padding: 10px 18px;
   background-color: #f44336;
 }
-
+.cancelbtn:hover {
+    background-color: #000000;
+  }
 /* Center the image and position the close button */
 .imgcontainer {
   text-align: center;
@@ -51,7 +87,8 @@ button:hover {
 
 img.avatar {
   width: 20%;
-  border-radius: 50%;
+  height: 20%;
+  border-radius: 90%;
 }
 
 .container {
@@ -62,6 +99,14 @@ span.psw {
   float: right;
   padding-top: 16px;
   text-decoration:none;
+  color: #000000;
+}
+.psw a{
+    color:rgb(238, 157, 17);
+}
+span a:hover{
+    color: blue;
+    text-decoration:solid;
 }
 
 /* The Modal (background) */
@@ -82,7 +127,7 @@ span.psw {
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  margin: 1% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 50%; /* Could be more or less, depending on screen size */
 }
@@ -119,6 +164,47 @@ span.psw {
   to {transform: scale(1)}
 }
 
+@media (max-width: 1250px){
+    .modal-content {
+        background-color: #fefefe;
+        margin: -4% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 40%; /* Could be more or less, depending on screen size */
+      }
+      #but{
+        background-color: rgb(238, 157, 17);
+        color: white;
+        padding: 14px 20px;
+        font-size: 1.1rem;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+}
+@media (max-width: 800px){
+    .modal-content {
+        background-color: #fefefe;
+        margin: -3% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+        border: 1px solid #888;
+        width: 50%; /* Could be more or less, depending on screen size */
+      }
+      #but{
+        background-color: rgb(238, 157, 17);
+        color: white;
+        padding: 14px 20px;
+        font-size: 1.1rem;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+      span.psw {
+        float: right;
+        padding-top: 1px;
+        font-size: 0.8rem;
+      }
+}
 /* Change styles for span and cancel button on extra small screens */
 @media screen and (max-width: 300px) {
   span.psw {

@@ -11,7 +11,6 @@
     <title>Power Play Palace | Ecommerce</title>
 </head>
 <body>
-   
     <div class="navbar">
         <div class="header-inner-contet">
             <a href="home.php">
