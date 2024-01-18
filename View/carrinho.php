@@ -11,7 +11,7 @@
     <title>Power Play Palace | Ecommerce</title>
 </head>
 <body>
-    <p>teste new brench</p>
+   
     <div class="navbar">
         <div class="header-inner-contet">
             <a href="home.php">
