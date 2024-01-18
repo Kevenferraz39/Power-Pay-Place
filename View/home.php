@@ -38,21 +38,22 @@
                   </div>
               
                   <div class="container">
-                    <label for="uname"><b>Username</b></label>
-                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <label for="uname"><b>Usuario</b></label>
+                    <input type="text" placeholder="Entre com o nome de usuario ou email.... " name="uname" required>
               
-                    <label for="psw"><b>Password</b></label>
-                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <label for="psw"><b>Senha:</b></label>
+                    <input type="password" placeholder="Senha...." name="psw" required>
                       
-                    <button type="submit">Login</button>
+                    <button type="submit" id="but">Login</button>
+                    <button id="but"><a href="cadastro.php">Cadastre-se</a></button><br>
                     <label>
-                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                      <input type="checkbox" checked="checked" name="remember"> Lembre-me
                     </label>
                   </div>
               
                   <div class="container" style="background-color:#f1f1f1">
                     <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-                    <span class="psw">Forgot <a href="#">password?</a></span>
+                    <span class="psw">Esqueceu a <a href="#">Senha?</a></span>
                   </div>
                 </form>
               </div>
