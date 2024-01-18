@@ -6,6 +6,7 @@
     <!--estilos-->
     <link rel="stylesheet" href="style/home.css">
     <link rel="stylesheet" href="style/carrinho.css">
+    <link rel="stylesheet" href="style/login.css">
     <!--estilos-->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <title>Power Play Palace | Ecommerce</title>
@@ -23,9 +24,40 @@
                     <li><a href="produtos.php">PRODUTOS</a></li>
                     <li><a href="sobre.php">SOBRE</a></li>
                     <li><a href="contato.php">CONTATO</a></li>
-                    <li><a href="conta.php">CONTA</a></li>
+                    <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">CONTA</a></li>
                 </ul>
             </nav>
+
+            <!--login-->
+            <div id="id01" class="modal">
+  
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="./img/eu.jpeg" alt="Avatar" class="avatar">
+                  </div>
+              
+                  <div class="container">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+              
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                      
+                    <button type="submit">Login</button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+              
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
+              <!--login-->
+
             <div class="nav-icons-container">
                 <img src="./img/carrinho.png" alt="carrinho" class="carrinhoimg" id="car-button">
                 <img src="./img/menuu.png" alt="menu" class="menu-button">
@@ -189,6 +221,7 @@
     <script src="js/dropdown.js"></script>
     <script src="js/carrinho.js"></script>
     <script src="js/NewPage.js"></script>
+    <script src="js/login.js"></script>
      <!--script-->
 </body>
 </html>
