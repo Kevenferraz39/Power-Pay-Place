@@ -36,7 +36,7 @@
                     <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                     <img src="./img/eu.jpeg" alt="Avatar" class="avatar">
                   </div>
-              
+              mmmmm
                   <div class="container">
                     <label for="uname"><b>Usuario</b></label>
                     <input type="text" placeholder="Entre com o nome de usuario ou email.... " name="uname" required>
