@@ -191,7 +191,7 @@ header{
     }
     .header-botton-side-left .img-1{
         width: 6rem;
-        margin-left: -30rem;
+        margin-left: 0rem;
         margin-top: -1rem;
         margin-bottom: 2rem;
         filter: drop-shadow(0px 0px 3px #DF9310 );
@@ -199,7 +199,7 @@ header{
     .header-botton-side-left .img-2{
         width: 12rem;
         margin-top: -1rem;
-        margin-left: -12rem;
+        margin-left: -8rem;
         margin-bottom: 2rem;
     }
     .menu-button{
@@ -228,33 +228,7 @@ header{
         padding: 0.8rem;
     }
 }
-/*Mobile*/
-@media (max-width: 400px){
-    .logo{
-        display: none;
-    }
-    .logoFoto{
-        display: block;
-        margin-left: -8rem;
-    }
-    .header-botton-side-left .img-1{
-        width: 6rem;
-        margin-left: -1rem;
-        margin-top: -1rem;
-        margin-bottom: 2rem;
-        filter: drop-shadow(0px 0px 3px #DF9310 );
-    }
-    .header-botton-side-left .img-2{
-        width: 12rem;
-        margin-top: -1rem;
-        margin-left: -1rem;
-        margin-bottom: 2rem;
-    }
-    .menu-button{
-        display: block;
-    }
-}
-/*Mobile*/
+
 /*----Media queries-----*/
 /*----Header-----*/
 

@@ -54,7 +54,7 @@
                     Ao trazer à vida este projeto, Keven Ferraz de Almeida solidifica sua posição como um empreendedor que compreende não apenas as tendências do mercado, mas também as necessidades evolutivas da sociedade digital. Este é apenas o primeiro passo em uma jornada que promete continuar inovando e transformando o cenário tecnológico com uma visão única e habilidades abrangentes. Bem-vindo ao <span class="1">Power</span> Play Place, onde a tecnologia alcança sua expressão máxima, atendendo à busca por excelência no universo eletrônico.
                     <br>
                     att,
-                    </p>
+                    </p> 
                     <img src="img/logo2.png" alt="logo2" class="img-2">
                     <button>Ver Agora &#8594;</button>
                 </div>
