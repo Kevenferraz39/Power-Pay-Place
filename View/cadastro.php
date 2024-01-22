@@ -34,7 +34,7 @@
                             <input type="text" name="TxtCPF" id="TxtCPF" placeholder="Digite o seu CPF" required>
 
                             <label for="TxtDataNasc">Data de nascimento:</label>
-                            <input type="date" name="TxtDataNasc" id="TxtDataNasc"required>
+                            <input type="date" name="TxtDataNasc" id="DataNasc"required>
 
                             <label for="Sexo">Sexo:</label>
                             <select name="Sexo" id="Sexo">
@@ -54,9 +54,24 @@
 
                             <label for="SenhaC">Confirme sua senha:</label>
                             <input type="password" name="SenhaC" id="SenhaC" placeholder="Digite uma senha " required>
+                                
+                            <h3>Endereço:</h3>
+                            <hr>
 
-                            <a href="">Proximo</a>
+                            <label for="">Pais:</label>
+                            <select name="" id="">
+                                <option>&nbsp;</option>
+                                <option value=""></option>
+                            </select>
+
+                            <label for="Senha">Senha:</label>
+                            <input type="password" name="Senha" id="Senha" placeholder="Digite uma senha " required>
+
+                            <label for="SenhaC">Confirme sua senha:</label>
+                            <input type="password" name="SenhaC" id="SenhaC" placeholder="Digite uma senha " required>
+                            
                         </div>
+                        <a href="">Proximo</a>
                     </div>
                   </form>
                 </div>
