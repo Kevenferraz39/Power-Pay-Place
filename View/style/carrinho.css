@@ -14,6 +14,7 @@
     --color2: rgb(255, 255, 255);
     --color3: rgb(249, 160, 5);
     --box-shadow: #2c2c2c;
+    --box-shadow2:rgba(44, 44, 44, 0.444);
     --logo:rgb(255, 162, 0);
     --background: rgb(243, 243, 243);
     --main: #f2f2f2;
@@ -35,7 +36,7 @@
     left: auto;
     right: 0;
     border-radius:  0 0  0 15px;
-    box-shadow: 0px 5px 15px var(--box-shadow);
+    box-shadow: 0px 11px 10px var(--box-shadow2);
     display: none;
 }
 .carrinho h3{
