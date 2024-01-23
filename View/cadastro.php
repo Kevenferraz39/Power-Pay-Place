@@ -56,22 +56,55 @@
                             <input type="password" name="SenhaC" id="SenhaC" placeholder="Digite uma senha " required>
                                 
                             <h3>Endereço:</h3>
-                            <hr>
-
-                            <label for="">Pais:</label>
+                        
+                            <label for="">UF:</label>
                             <select name="" id="">
-                                <option>&nbsp;</option>
-                                <option value=""></option>
+                            <option value="">&nbsp;</option>
+                                <option value="Acre">AC</option>
+                                 <option value="Alagoas">AL</option>
+                                 <option value="Amapa">AP</option>
+                                 <option value="Amazonas">AM</option>
+                                 <option value="Bahia">BA</option>
+                                 <option value="Ceara">CE</option>
+                                 <option value="Distrito-Federal">DF</option>
+                                 <option value="Espirito-Santo">ES</option>
+                                 <option value="Goias">GO</option>
+                                 <option value="Maranhao">MA</option>
+                                 <option value="Mato Grosso">MT</option>
+                                 <option value="Mato-Grosso-do-Sul">MS</option>
+                                 <option value="Minas-Gerais">MG</option>
+                                 <option value="Para">PA</option>
+                                 <option value="Paraiba">PB</option>
+                                 <option value="Paraná">PR</option>
+                                 <option value="Pernambuco ">PE</option>
+                                 <option value="Piaui">PI</option>
+                                 <option value="Rio-de-Janeiro">RJ</option>
+                                 <option value="Rio-Grande-do-Norte">RN</option>
+                                 <option value="Rio-Grande-do-Sul">RS</option>
+                                 <option value="Rondonia">RO</option>
+                                 <option value="Roraima">RR</option>
+                                 <option value="Santa-Catarina">SC</option>
+                                 <option value="Sao-Paulo">SP</option>
+                                 <option value="Sergipe">SE</option>
+                                 <option value="Tocantins">TO</option>    
                             </select>
 
-                            <label for="Senha">Senha:</label>
-                            <input type="password" name="Senha" id="Senha" placeholder="Digite uma senha " required>
+                            <label for="">Cep:</label>
+                            <input type="text" name="" id="">
+ 
+                            <label for="">Cidade:</label>
+                            <input type="text" name="" id="">
 
-                            <label for="SenhaC">Confirme sua senha:</label>
-                            <input type="password" name="SenhaC" id="SenhaC" placeholder="Digite uma senha " required>
-                            
+                            <label for="">Bairro:</label>
+                            <input type="text" name="" id="">
+
+                            <label for="">Rua:</label>
+                            <input type="text" name="" id="">
+
+                            <label for="">Complemento:</label>
+                            <input type="text" name="" id="">
                         </div>
-                        <a href="">Proximo</a>
+                        <input type="submit" value="Cadastrar" class="cadastrar">
                     </div>
                   </form>
                 </div>
