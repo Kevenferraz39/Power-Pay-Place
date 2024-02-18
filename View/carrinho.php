@@ -42,6 +42,7 @@
         </div>
     <button onclick="iraocarrinho()">Ir ao carrinho &#8594;</button>
 </div>
+
     <header>
         <div class="header-iner-content">
             <div class="header-botton-side">

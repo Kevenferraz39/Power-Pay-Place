@@ -79,49 +79,10 @@ a{
     width: 70px;
     display: none;
 }
-nav ul{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-}
-.nav-icons-container{
-    display: flex;
-    align-items: center;
 
-}
-.nav-icons-container img{
-    width: 50px;
-    cursor: pointer;
-}
-.nav-icons-container .carrinhoimg{
-    width: 30px;
-    cursor: pointer;
-}
-.nav-icons-container img:first-child{
-    margin-right: 1rem;
-}
-nav ul li{
-    color: var(--color3);
-    font-weight: bold;
-    margin-right: 1.5rem;
-    cursor: pointer;
-}
-nav ul li:hover{
-    color:var(--teme);
-    transform: translateY(-5px);
-    transition: all 0.6s;
-    
-}nav a{
-    color: var(--color3);
-}
-.menu-button{
-    display: none;
-}
-ul .produtos{
-    display: none;
-}
 header{
     background-image: radial-gradient( #fff, #c7c7c7);
+    height: 100vh;
 }
 .header-botton-side-left .cadastro-content{
     background-color: var(--color2);
@@ -151,6 +112,8 @@ header{
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    height: 300px;
+    overflow-y: scroll;
 }
 .cadastro label{
     text-align: left;
@@ -162,24 +125,59 @@ header{
     border-radius: 5px;
     outline-color: var(--teme);
     margin: 0.5rem;
+    margin-bottom: 1rem;
+}
+#DataNasc{
+    width: 40%;
+    margin-left: 0.7rem;
+    padding: 15px;
+    margin-bottom: 1rem;
 }
 .cadastro select{
     width: 20%;
     margin-left: 0.7rem;
+    margin-bottom: 1rem;
 }
-.cadastro a {
+.cadastro-content .cadastrar{
     margin-top: 2rem;
- background-color: var(--teme);
- padding: 10px;
- width: 150px;
- border-radius: 5px;
- text-align: center;
- color: var(--color2);
- text-decoration: none;
+    background-color: var(--teme);
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--color2);
+    text-decoration: none;
+    border-style: none;
 }
-.cadastro a:hover{
+.cadastro .cadastrar:hover{
     background-color: var(--button-hover);
 }
+.cadastro h3{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.cadastro::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  .cadastro::-webkit-scrollbar-track {
+    background: #f1f1f123; 
+  }
+   
+  /* Handle */
+  .cadastro::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .cadastro::-webkit-scrollbar-thumb:hover {
+    background: var(--teme); 
+    border-radius: 10px;
+    width: 6px;
+  }
 /*----Media queries-----*/
 
 @media (max-width: 800px) {
