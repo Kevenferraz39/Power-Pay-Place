@@ -28,13 +28,13 @@
                         <h3>Cadastre-se:</h3>
                         <div class="cadastro">
                             <label for="TxtNome">Nome:</label>
-                            <input type="text" name="TxtNome" id="TxtNome" placeholder="Digite seu nome completo...." required>
+                            <input type="text" name="txtnome" id="TxtNome" placeholder="Digite seu nome completo...." required>
 
                             <label for="TxtCPF">CPF:</label>
-                            <input type="text" name="TxtCPF" id="TxtCPF" placeholder="Digite o seu CPF" required>
+                            <input type="text" name="txtcpf" id="TxtCPF" placeholder="Digite o seu CPF" required>
 
                             <label for="TxtDataNasc">Data de nascimento:</label>
-                            <input type="date" name="TxtDataNasc" id="DataNasc"required>
+                            <input type="date" name="txtnasc" id="DataNasc"required>
 
                             <label for="Sexo">Sexo:</label>
                             <select name="Sexo" id="Sexo">
