@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--estilos-->
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/Error404.css">
+    <!--estilos-->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>404 | Page not found !</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="header-inner-contet">
+            <a href="home.php">
+                <h1 class="logo">Power <span>Play Palace</span></h1></a>
+            <a href="home.php" class="linkHomeMenu">
+            <img src="./img/logo-removebg-preview.png" alt="logo" class="logoFoto"></a>
+            <nav>
+                <ul>
+                    <li><a href="home.php">HOME</a></li>
+                    <li><a href="produtos.php">PRODUTOS</a></li>
+                    <li><a href="sobre.php">SOBRE</a></li>
+                    <li><a href="contato.php">CONTATO</a></li>
+                    <li><a href="#" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">CONTA</a></li>
+                </ul>
+            </nav>
+
+            <!--login-->
+            <div id="id01" class="modal">
+  
+                <form class="modal-content animate" action="/action_page.php" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="./img/eu.jpeg" alt="Avatar" class="avatar">
+                  </div>
+              
+                  <div class="container">
+                    <label for="uname"><b>Usuario</b></label>
+                    <input type="text" placeholder="Entre com o nome de usuario ou email.... " name="uname" required>
+              
+                    <label for="psw"><b>Senha:</b></label>
+                    <input type="password" placeholder="Senha...." name="psw" required>
+                      
+                    <button type="submit" id="but">Login</button>
+                    <button id="but"><a href="cadastro.php">Cadastre-se</a></button><br>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Lembre-me
+                    </label>
+                  </div>
+              
+                  <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Esqueceu a <a href="#">Senha?</a></span>
+                  </div>
+                </form>
+              </div>
+              <!--login-->
+
+            <div class="nav-icons-container">
+                <img src="./img/carrinho.png" alt="carrinho" class="carrinhoimg" id="car-button">
+                <img src="./img/menuu.png" alt="menu" class="menu-button">
+            </div>
+        </div>
+    </div>
+    <div class="carrinho">
+    <h3>Carrinho:</h3>
+    <div class="compras" id="containerCarrinho">
+        <!-- compras -->
+    </div>
+    <div class="total">
+            <!--  valor total da compra compras -->
+        </div>
+      <button onclick="iraocarrinho()">Ir ao carrinho &#8594;</button>
+</div>
+    <section class="informations-2">
+      <div class="information-container">
+              <h1>404</h1>
+              <p>Page not found !</p>
+      </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+          <div class="logo-space">
+           <center><img src="img/logo3.png" alt="logo alternativa"></center>
+            <p>Projetado e construído com todo o amor do mundo pela equipe <span>Power Play Palace</span> com a ajuda de nossos colaboradores.</p>
+          </div>
+          <div class="information">
+              <ol>
+                <h3>conteudo</h3>
+                <li><a href="">Atividades</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">Conteudo</a></li>
+                <li><a href="">Documentacao</a></li>
+                <li><a href="">Tags</a></li>
+              </ol>
+      
+              <ol>
+                <h3>Linguagens de programação</h3>
+                <li><a href="">JavaScript</a></li>
+                <li><a href="">PHP</a></li>
+                <li><a href="">SQL</a></li>
+                <li><a href="">Python</a></li>
+                <li><a href="">C++</a></li>
+              </ol>
+      
+              <ol>
+                <h3>conteudo</h3>
+                <li><a href="">Atividades</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">Conteudo</a></li>
+                <li><a href="">Documentacao</a></li>
+                <li><a href="">Tags</a></li>
+              </ol>
+      
+              <ol>
+                <h3>Linguagens de programação</h3>
+                <li><a href="">JavaScript</a></li>
+                <li><a href="">PHP</a></li>
+                <li><a href="">SQL</a></li>
+                <li><a href="">Python</a></li>
+                <li><a href="">C++</a></li>
+              </ol>
+          </div>
+        </div><br>
+        <hr><br>
+        <center><p>© Power Play Palace. Todos os direitos reservados.</p></center>
+    </footer>
+    <!--script-->
+    <script src="js/Error404.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/carrinho.js"></script>
+    <script src="js/NewPage.js"></script>
+    <script src="js/login.js"></script>
+     <!--script-->
+</body>
+</html>

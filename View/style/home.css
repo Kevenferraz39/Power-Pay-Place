@@ -6,7 +6,8 @@
 }
 
 :root{
-    --teme: rgb(238, 157, 17);
+    --teme:#f28500;
+    --teme2:#f28500;
     --button-hover: #DF9310;
     --button-hover2: #020202cb;
     --light-gray:#e9e9e9;
