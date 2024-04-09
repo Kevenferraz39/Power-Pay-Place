@@ -2,7 +2,6 @@
     --teme:#f28500;
     --teme2:#f28500;
     --text:black;
-    --text2:rgb(255, 255, 255);
     --slogan:#6a6a6a;
     --logo:rgb(255, 162, 0);
     --body:#eff0f4;
@@ -25,7 +24,7 @@ footer{
     width: 100%;
     background-color: var(--teme2);
     padding: 10px;
-    color:var(--text2);
+    color:var(--color2);
 }
 .footer-container{
     width: 100%;
@@ -59,7 +58,7 @@ footer{
 }
 .information h3{
     font-weight: bold;
-    color: var(--text2);
+    color: var(--color2);
     margin-bottom: 5px;
 }
 .information li{
