@@ -20,13 +20,6 @@
     }
 
 
-
-        /*
-	    		status é campo em bit
-	    		1 = ativo
-	    		0 = inativo
-                
-	    	*/
             public function insereCad($cadnome, $cadtel, $cadsenha , $cadcpf , $cadnres ,$cadcomple , $cademail){
 
                 $insereCad = $this->pdo->prepare(" INSERT INTO cadastro (Nome, Telefone, Senha, CPF ,Nresidencial, Complemento, Email) 
